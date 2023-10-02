@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_Arrays", "02_Arrays\02_A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_Enum", "03_Enum\03_Enum.csproj", "{D1B89429-4D21-432F-8B91-67569F88E937}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_String", "04_String\04_String.csproj", "{967564BF-0FAD-4061-B768-171228BF650F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_String", "04_String\04_String.csproj", "{967564BF-0FAD-4061-B768-171228BF650F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_StringBuilder", "05_StringBuilder\05_StringBuilder.csproj", "{2CEEF077-7B11-4C45-9B5F-29C279F3ED2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05_StringBuilder", "05_StringBuilder\05_StringBuilder.csproj", "{2CEEF077-7B11-4C45-9B5F-29C279F3ED2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_IntroToOOP_Properties", "06_IntroToOOP_Properties\06_IntroToOOP_Properties.csproj", "{84EECB58-DD53-4199-B315-B2E3C8B80DF9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{2CEEF077-7B11-4C45-9B5F-29C279F3ED2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CEEF077-7B11-4C45-9B5F-29C279F3ED2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CEEF077-7B11-4C45-9B5F-29C279F3ED2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84EECB58-DD53-4199-B315-B2E3C8B80DF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84EECB58-DD53-4199-B315-B2E3C8B80DF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84EECB58-DD53-4199-B315-B2E3C8B80DF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84EECB58-DD53-4199-B315-B2E3C8B80DF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

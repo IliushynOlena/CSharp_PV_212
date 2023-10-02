@@ -10,6 +10,7 @@ namespace _05_StringBuilder
             
 
             string str = "Hello";//5b
+
             Console.WriteLine(str.Length);
 
 
