@@ -15,6 +15,7 @@ namespace _06_IntroToOOP_Properties
     public class MyClass //: Object
     {
         //body of class
+        protected internal int age;
         private int number;
         private string name ;
         private const float PI = 3.14f;
