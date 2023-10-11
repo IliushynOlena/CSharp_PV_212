@@ -163,6 +163,8 @@
             if (seller is Seller)
                 Console.WriteLine($"Sellers salary : {(seller as Seller)?.Salary}");
 
+            //int[] arr = new int[10];
+        
             director.ListOfWorkers = new List<IWorkAble>
             {
                 seller,
