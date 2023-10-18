@@ -58,10 +58,7 @@
             {
                 Console.WriteLine(item.Name);
             }
-
-
-
-
+            
         }
 
         class Person

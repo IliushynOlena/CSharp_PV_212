@@ -36,35 +36,9 @@ namespace _07_RefOutStruct
    - internal
    - protected internal
     */
-    //struct Rectangle
-    //{
-    //    public int Height { get; set; }
-    //    public int Width { get; set; }
-    //    public Rectangle(int h, int w)
-    //    {
-    //        Height = h;
-    //        Width = w;
-    //    }
-    //    public void Print()
-    //    {
-    //        Console.WriteLine($"Rectangle . h : {Height}, w {Width}");
-    //    }
-
-    //}
-    class Rectangle
+    struct Rectangle
     {
-        private int height;
-
-        public int Height
-        {
-            get { return height; }
-            set
-            {
-                if (value < 0)
-                    throw new ArgumentException("Invalid height");
-                height = value;
-            }
-        }
+        public int Height { get; set; }
         public int Width { get; set; }
         public Rectangle(int h, int w)
         {
@@ -77,6 +51,32 @@ namespace _07_RefOutStruct
         }
 
     }
+    //class Rectangle
+    //{
+    //    private int height;
+
+    //    public int Height
+    //    {
+    //        get { return height; }
+    //        set
+    //        {
+    //            if (value < 0)
+    //                throw new ArgumentException("Invalid height");
+    //            height = value;
+    //        }
+    //    }
+    //    public int Width { get; set; }
+    //    public Rectangle(int h, int w)
+    //    {
+    //        Height = h;
+    //        Width = w;
+    //    }
+    //    public void Print()
+    //    {
+    //        Console.WriteLine($"Rectangle . h : {Height}, w {Width}");
+    //    }
+
+    //}
     internal class Program
     {
         //params  - set many parameters
@@ -162,19 +162,20 @@ namespace _07_RefOutStruct
                 Console.WriteLine(ex.Message);
             }
           
-            /*
+            
             Point p;//p = null;
+
             Rectangle r = new Rectangle();//default construct
             int a;
-            
-            Point point = new Point();//invoke constructor - references type
+
+            Point point= new Point();//invoke constructor - references type
             point.Print();
 
             DateTime now = DateTime.Now;
             DateTime hireDate = new DateTime(2022, 5, 6);
             Rectangle rectangle = new Rectangle(10,15);//value type
             rectangle.Print();
-            */
+            
             /*
             //int h = 0, m = 0, s = 0;
             //Console.WriteLine($"Time {h}:{m}:{s}");
