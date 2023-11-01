@@ -3,6 +3,7 @@ using System.Xml.Serialization;
 
 namespace _21_XML_JsonSerializer
 {
+    //[Serializable]
     public class Person
     {
         public string Name { get; set; }
